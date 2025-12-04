@@ -1,0 +1,16 @@
+#CRM_backend
+PORT=4000
+NODE_ENV=production
+MONGO_URI=mongodb+srv://admiregroup:admire0912@cluster0.hvojqvz.mongodb.net/mydatabase?retryWrites=true&w=majority&appName=Cluster0
+JWT=c65701ba8a0ddb0608a58c3b25c052e2f74e0ac03802a481fd99c687305ecc2d14751aee4d98dc0771d22c1850808c3186a7c9ee4958a39d7b636c20e45122b9 
+JWT_SECRET=176c75f44a2524e6b8bc4a12ab5dcec60f932505
+
+CLOUDINARY_NAME=dxnzkzlu2
+CLOUDINARYAPIKEY=876642194918698
+CLOUDINARY_SECRET=SFUvehJWxG9dk6ttTvNn-kZBg9c
+
+========================================================================
+
+#CRM_frontend
+# VITE_API_BASE_URL=http://192.168.68.103:5000
+VITE_API_URL=http://localhost:4000 || http://api.admiresoftech.online
